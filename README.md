@@ -20,7 +20,12 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Specifications
 
-*
+*   Determine whether two words are anagrams
+    * Input: bread, beard
+    * Output: Is an anagram
+*   Determine which words in a list of words are anagrams of the specified input word
+    * Input: bread, (beard, bob, loaf, Debra)
+    * Output: beard, Debra
 
 
 ## Known Bugs
