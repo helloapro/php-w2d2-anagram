@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <form action="/process" style="padding-top: 100px" method="post">
+            <h1>Anagrammar?</h1>
+            <div class="form-group">
+                <label for="wordToCheck">What Word Would You Like to Check?</label>
+                <input id="wordToCheck" name="wordToCheck" class="form-control" type="text" placeholder="Word to check">
+            </div>
+            <div class="form-group">
+                <label for="wordsToCheckAgainst">What Word(s) Would You Like to Check Against?</label>
+                <input id="wordsToCheckAgainst" name="wordsToCheckAgainst" class="form-control" type="text" placeholder="Word(s) to Check Against">
+            </div>
+            <button type="submit" class="btn btn-primary btn-xs">Process</button>
+        </form>
+    </div>
+</body>
+</html>

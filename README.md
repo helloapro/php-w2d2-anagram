@@ -26,6 +26,9 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 *   Determine which words in a list of words are anagrams of the specified input word
     * Input: bread, (beard, bob, loaf, Debra)
     * Output: beard, Debra
+*   Determine partial matches as anagrams
+    * Input: hat, that
+    * Output: Partial match anagram
 
 
 ## Known Bugs
